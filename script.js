@@ -66,7 +66,7 @@ function displayTimer() {
 function startTimer() {
   // save start time.getTime()
   //			   
-  T.timerStarted = 1734386285733 - 60*60*1000*6 - 9*60*1000 + 17*1000
+  T.timerStarted = 1734386285733 - 60*60*1000*6 - 9*60*1000 + 17*1000 -  20*60*1000
   //T.timerStarted = new Date().getTime()
   //console.log('T.timerStarted: '+T.timerStarted)
 

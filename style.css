@@ -1,4 +1,12 @@
+img{
+	width: 80px;
+}
+.img{
+position: absolute;
+    left: 390px;
+    top: 50px;
 
+}
 #timer {
   width: 460px;
   font-size: 90px;
@@ -8,9 +16,8 @@
   border-radius: 10px;
   -webkit-text-stroke: 2px #fff; /* Толщина и цвет обводки */
   text-stroke: 2px #fff;
-    font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
+    font-family: "Arial", sans-serif;
+  font-weight: 900;
   font-style: normal;
 }
 #labels {
@@ -46,7 +53,4 @@ button {
 
 #clear { background-color: yellow; display: none;}
 
-body, button {
-  font-family: 'Courier';
-}
 

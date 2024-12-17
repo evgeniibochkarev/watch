@@ -57,8 +57,8 @@ console.log(T.difference)
 
   time  =  hours   + ':'
   time += minutes + ':'
-  time += seconds + ':'
-  time += miliseconds;
+  time += seconds 
+
 
   T.timerDiv.innerHTML = time;
 }

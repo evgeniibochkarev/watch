@@ -2,16 +2,18 @@
 #timer {
   width: 460px;
   font-size: 70px;
-  background-color: black;
+  /*background-color: black;*/
   color: #fff;
   padding: 25px;
   border-radius: 10px;
+  text-shadow: 2px 2px 7px #000;;
 }
 #labels {
   margin-top: -25px;
   z-index: 2;
   color: #fff;
   font-size: 12px;
+    box-shadow: 5px 5px 5px #000;
 }
 #hh {margin-left: 45px;}
 #mm {margin-left: 80px;}
@@ -31,7 +33,7 @@ button {
   font-size: 25px;
   font-weight: bold;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px #000;
 }
 #go    { background-color: limegreen; }
 

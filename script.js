@@ -12,9 +12,9 @@ function displayTimer() {
   time = '',
   timeNow = new Date().getTime(); // timestamp (miliseconds)
   
-console.log(timeNow, T.timerStarted)	
+	
   T.difference = timeNow - T.timerStarted;
-console.log(T.difference)
+
   // milliseconds
   if(T.difference > 10) {
     miliseconds = Math.floor((T.difference % 1000) / 10);
